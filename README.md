@@ -82,9 +82,8 @@ Este proyecto implementa una API para gestionar una tienda virtual utilizando Fl
 - **Contador**
   - Confirmar Pagos: `PUT /pagos/confirmar/<payment_id>`
 
-## Ejemplos de Uso
+##  Usos
 
 ### Autenticación
+`curl -X POST -H "Content-Type: application/json" -d '{"username":"tu_usuario","password":"tu_contraseña"}' http://localhost:5000/login`
 
-```bash
-curl -X POST -H "Content-Type: application/json" -d '{"username":"tu_usuario","password":"tu_contraseña"}' http://localhost:5000/login
